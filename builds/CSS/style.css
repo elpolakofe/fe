@@ -1,0 +1,131 @@
+html {
+    height: 100%;
+    cursor: url("../Other/cur.png"), auto;
+}
+
+body {
+    height: 100%;
+    margin: 0 auto;
+}
+
+#tpnv {
+    height: 60px;
+    width: 100%;
+}
+
+#topnav a {
+    height: 40px;
+    width: 33.3333333333%;
+    position: relative;
+    z-index: 1000;
+    padding-top: 20px;
+    margin-bottom: 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: arial;
+    font-weight: bold;
+    background: #B238FF;
+    color: white;
+    float: left;
+    display: inline;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+#topnav .hoverbtn:hover {
+    height: 50px;
+    padding-top: 25px;
+    background: white;
+    color: #B238FF;
+    transition: 0.5s;
+    cursor: url("../Other/pointer.png"), auto;
+}
+
+/* active */
+#topnav .actbtn {
+    height: 50px;
+    padding-top: 25px;
+    background: #8A2CC9;
+    color: white;
+    cursor: url("../Other/pointer.png"), auto;
+}
+
+#content {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    background: #303030;
+}
+
+#content #inner-content {
+    height: 100%;
+    width: 75%;
+    margin: 0 auto;
+    background: #202020;
+    overflow: none;
+	box-shadow: 0px 0px 8px 1px rgba(0,0,0,1);
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    border: 0px;
+    color: white;
+    background: #202020;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px;
+}
+
+td {
+    border: 2px solid #202020;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background: #B238FF;
+}
+
+tr:nth-child(odd) {
+    background: #9334E5;
+}
+
+tr:hover {
+    opacity: 0.9;
+}
+
+a {
+    color: white;
+    font-size: 20p;
+    text-decoration: none;
+    transition: 0.5s;
+    cursor: url("../Other/pointer.png"), pointer;
+}
+
+a:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+
+#footer {
+    height: 40px;
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: arial;
+    font-weight: bold;
+    background-color: #a142f4;
+    color: white;
+    float: left;
+    overflow: hidden;
+}
